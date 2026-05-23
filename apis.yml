@@ -1,0 +1,197 @@
+aid: acts-retirement
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/acts-retirement/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.17'
+name: Acts Retirement-Life Communities
+description: >-
+  Acts Retirement-Life Communities is a not-for-profit operator of continuing
+  care retirement communities (CCRCs) headquartered in West Point, Pennsylvania.
+  Founded in 1972, Acts operates 28 senior living campuses across nine
+  Mid-Atlantic and Southeastern U.S. states (Alabama, Delaware, Florida,
+  Georgia, Maryland, New Jersey, North Carolina, Pennsylvania, South Carolina)
+  and serves approximately 10,000 residents. Its core service lines are
+  independent living for adults 55+, assisted living, memory care, skilled
+  nursing, short-term rehabilitation, and on-campus health services delivered
+  under the Acts Life Care contract model. Acts publishes no public developer
+  APIs, no OpenAPI specifications, no SDKs, and no developer portal — its
+  digital surface consists of a marketing website, a community directory, an
+  iCIMS-hosted careers portal at careers-actslife.icims.com, and a separate
+  health-services marketing site at actshealthservices.org. This repository
+  documents the organization and its likely senior-living IT vendor stack for
+  ecosystem mapping purposes; it does not document a developer API surface
+  because none is published.
+image: https://www.actsretirement.org/favicon.ico
+tags:
+  - Senior Living
+  - Retirement Communities
+  - Continuing Care Retirement Community
+  - Healthcare
+  - Skilled Nursing
+  - Assisted Living
+  - Memory Care
+  - Independent Living
+  - Nonprofit
+  - Long Term Care
+apis: []
+common:
+  - type: Website
+    url: https://www.actsretirement.org
+  - type: Portal
+    url: https://www.actsretirement.org
+  - type: About
+    url: https://www.actsretirement.org/about-acts/
+  - type: Communities
+    url: https://www.actsretirement.org/communities/
+  - type: News
+    url: https://www.actsretirement.org/latest-retirement-news/
+  - type: HealthServices
+    url: https://actshealthservices.org
+  - type: Careers
+    url: https://careers-actslife.icims.com/jobs/search
+  - type: Contact
+    url: https://www.actsretirement.org/contact-us/
+  - type: PrivacyPolicy
+    url: https://www.actsretirement.org/privacy-policy/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/acts-retirement-life-communities
+  - type: Facebook
+    url: https://www.facebook.com/ActsRetirement
+  - type: YouTube
+    url: https://www.youtube.com/user/ActsRetirementLife
+  - type: GitHub
+    url: https://github.com/api-evangelist/acts-retirement
+  - type: Features
+    data:
+      - name: Independent Living
+        description: >-
+          Maintenance-free apartment, cottage, and villa residences for active
+          adults 55+ across 28 campuses, with dining, fitness, social
+          programming, and lifelong learning amenities included.
+      - name: Assisted Living
+        description: >-
+          On-campus personal care residences providing assistance with
+          activities of daily living (bathing, dressing, medication management)
+          for residents who can no longer live fully independently.
+      - name: Memory Care
+        description: >-
+          Specialized residential neighborhoods for residents living with
+          Alzheimer's disease and other forms of dementia, with secured
+          environments and dementia-trained staff.
+      - name: Skilled Nursing Care
+        description: >-
+          On-site licensed skilled nursing facilities providing 24-hour
+          professional nursing for residents requiring complex medical care or
+          long-term custodial care.
+      - name: Short-Term Rehabilitation
+        description: >-
+          Inpatient and outpatient rehabilitation services including physical,
+          occupational, and speech therapy following hospitalization, surgery,
+          or illness.
+      - name: Acts Life Care Contract
+        description: >-
+          A continuing-care contract that combines independent-living residency
+          with prepaid access to on-campus assisted living, memory care, and
+          skilled nursing at the same monthly fee structure, providing long-term
+          care cost certainty.
+      - name: Acts Benevolence
+        description: >-
+          A charitable program funded by the Acts Legacy Foundation that
+          provides financial assistance to residents who outlive their personal
+          resources, ensuring no resident is asked to leave for inability to
+          pay.
+      - name: On-Campus Health Services
+        description: >-
+          Primary-care medical clinics, nurse practitioner programs, and hospice
+          services delivered on each Acts campus under the Acts Health Services
+          brand.
+  - type: UseCases
+    data:
+      - name: Retirement Community Selection
+        description: >-
+          Older adults and their families evaluating CCRC options across the
+          Mid-Atlantic and Southeast U.S. can browse all 28 Acts campuses by
+          state, compare pricing tiers, and request information packets through
+          the public marketing site.
+      - name: Acts Life Care Contract Purchase
+        description: >-
+          Prospective residents can sign an Acts Life Care contract at any of
+          the 28 communities, locking in lifetime access to the full care
+          continuum (independent through skilled nursing) at predictable
+          monthly fees.
+      - name: Employment Search And Application
+        description: >-
+          Job seekers across nursing, dining, hospitality, facilities, and
+          administrative roles can search and apply to openings at any Acts
+          campus through the iCIMS-powered careers portal at
+          careers-actslife.icims.com.
+      - name: Charitable Giving
+        description: >-
+          Donors can contribute to the Acts Legacy Foundation to support
+          benevolent care for residents who exhaust their personal financial
+          resources during their tenure.
+      - name: Vendor And Partner Inquiry
+        description: >-
+          Healthcare technology vendors, food-service suppliers, construction
+          contractors, and professional service firms can identify Acts
+          procurement contacts through the public contact and corporate
+          compliance pages.
+  - type: Solutions
+    data:
+      - name: Lifetime Care Cost Certainty
+        description: >-
+          The Acts Life Care contract addresses the senior-living industry's
+          biggest financial risk — open-ended long-term-care costs — by
+          bundling all future care levels into a single predictable monthly fee
+          structure backed by Acts Benevolence.
+      - name: Geographic Continuity Of Care
+        description: >-
+          With 28 campuses across nine Eastern and Southeastern states,
+          residents and their families can relocate within the Acts network
+          while preserving their Life Care contract benefits and care history.
+      - name: Faith-Based Nonprofit Operating Model
+        description: >-
+          As a not-for-profit organization rooted in a Christian ministry
+          heritage, Acts reinvests operating margin into resident services,
+          benevolent care, and capital improvements rather than distributing
+          profits to investors.
+  - type: Integrations
+    data:
+      - name: iCIMS Talent Cloud (Careers)
+        description: >-
+          The Acts careers portal is hosted on iCIMS at
+          careers-actslife.icims.com, indicating iCIMS Talent Cloud as the
+          applicant tracking system and recruiting marketing platform.
+      - name: Likely Clinical EHR (Vendor Not Publicly Disclosed)
+        description: >-
+          As a multi-site skilled nursing and assisted living operator, Acts
+          almost certainly runs an LTC/PAC-focused electronic health record
+          such as PointClickCare, MatrixCare, or Netsmart MyUnity, but the
+          specific vendor is not publicly disclosed on the Acts website.
+      - name: Likely HRIS/Payroll (Vendor Not Publicly Disclosed)
+        description: >-
+          With ~10,000 residents across 28 campuses, Acts operates a large
+          workforce that requires a multi-site HRIS, payroll, and workforce
+          management platform (commonly Workday, UKG Pro/Ready, Paycom, or
+          Oracle HCM in this market segment); the specific vendor is not
+          publicly disclosed.
+      - name: Likely ERP/Financials (Vendor Not Publicly Disclosed)
+        description: >-
+          Multi-entity nonprofit CCRC operators typically run Workday
+          Financials, Sage Intacct, Oracle NetSuite, or MRI/Yardi for resident
+          billing and general ledger; the specific vendor is not publicly
+          disclosed.
+  - type: ContactInfo
+    data:
+      - FN: Corporate Headquarters
+        adr:
+          street-address: 375 Morris Road
+          locality: West Point
+          region: PA
+          postal-code: '19486'
+          country-name: United States
+maintainers:
+  - FN: Kin Lane
+    X-twitter: apievangelist
+    email: info@apievangelist.com
