@@ -182,7 +182,7 @@ common:
           Financials, Sage Intacct, Oracle NetSuite, or MRI/Yardi for resident
           billing and general ledger; the specific vendor is not publicly
           disclosed.
-  - type: ContactInfo
+  - type: Contact
     data:
       - FN: Corporate Headquarters
         adr:
