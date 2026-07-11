@@ -36,6 +36,8 @@ tags:
   - Long Term Care
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/acts-retirement-domain-security.yml
   - type: Website
     url: https://www.actsretirement.org
   - type: Portal
@@ -58,6 +60,8 @@ common:
     url: https://www.linkedin.com/company/acts-retirement-life-communities
   - type: Facebook
     url: https://www.facebook.com/ActsRetirement
+  - type: Blog
+    url: https://www.actsretirement.org/latest-retirement-news/
   - type: YouTube
     url: https://www.youtube.com/user/ActsRetirementLife
   - type: GitHub
