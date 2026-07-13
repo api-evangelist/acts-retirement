@@ -1,0 +1,21 @@
+{
+  "repo": "acts-retirement",
+  "feeds": [
+    {
+      "source": "https://www.actsretirement.org/latest-retirement-news/",
+      "feed_url": "https://www.actsretirement.org/latest-retirement-news/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.facebook.com/ActsRetirement",
+      "feed_url": "https://www.facebook.com/ActsRetirement",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 7
+}
