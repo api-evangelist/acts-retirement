@@ -2,23 +2,21 @@
   "repo": "acts-retirement",
   "feeds": [
     {
-      "source": "https://www.actsretirement.org/latest-retirement-news/",
-      "feed_url": "https://www.actsretirement.org/latest-retirement-news/",
-      "title": "",
-      "saved": 0,
-      "method": "none",
-      "nature": "undetermined",
-      "nature_basis": null
-    },
-    {
       "source": "https://www.facebook.com/ActsRetirement",
       "feed_url": "https://www.facebook.com/ActsRetirement",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://www.actsretirement.org/latest-retirement-news/",
+      "feed_url": "https://www.actsretirement.org/latest-retirement-news/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 7,
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
