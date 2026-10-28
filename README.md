@@ -1,4 +1,4 @@
-# Acts Retirement-Life Communities (acts-retirement)
+# Acts Retirement-Life Communities
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,94 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Acts Retirement-Life Communities is a not-for-profit operator of continuing care retirement communities (CCRCs) headquartered in West Point, Pennsylvania. Founded in 1972, Acts operates 28 senior living campuses across nine Mid-Atlantic and Southeastern U.S. states (Alabama, Delaware, Florida, Georgia, Maryland, New Jersey, North Carolina, Pennsylvania, South Carolina) and serves approximately 10,000 residents. Its core service lines are independent living for adults 55+, assisted living, memory care, skilled nursing, short-term rehabilitation, and on-campus health services delivered under the Acts Life Care contract model.
+Acts Retirement-Life Communities is a not-for-profit operator of continuing care retirement communities (CCRCs) headquartered in West Point, Pennsylvania. Founded in 1972, Acts operates 28 senior living campuses across nine Mid-Atlantic and Southeastern U.S. states (Alabama, Delaware, Florida, Georgia, Maryland, New Jersey, North Carolina, Pennsylvania, South Carolina) and serves approximately 10,000 residents. Its core service lines are independent living for adults 55+, assisted living, memory care, skilled nursing, short-term rehabilitation, and on-campus health services delivered under the Acts Life Care contract model. Acts publishes no public developer APIs, no OpenAPI specifications, no SDKs, and no developer portal — its digital surface consists of a marketing website, a community directory, an iCIMS-hosted careers portal at careers-actslife.icims.com, and a separate health-services marketing site at actshealthservices.org. This repository documents the organization and its likely senior-living IT vendor stack for ecosystem mapping purposes; it does not document a developer API surface because none is published.
 
-Acts publishes no public developer APIs, no OpenAPI specifications, no SDKs, and no developer portal — its digital surface consists of a marketing website, a community directory, an iCIMS-hosted careers portal at `careers-actslife.icims.com`, and a separate health-services marketing site at `actshealthservices.org`. This repository documents the organization and its likely senior-living IT vendor stack for ecosystem-mapping purposes; it does not document a developer API surface because none is published.
+**Areas:** Senior Living · Retirement Communities · Continuing Care Retirement Community · Healthcare · Skilled Nursing · Assisted Living · Memory Care · Independent Living · Non-Profit · Long-Term Care
 
-**URL:** [https://www.actsretirement.org](https://www.actsretirement.org)
+## Acts Retirement-Life Communities on APIs.io
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+Everything profiled for Acts Retirement-Life Communities is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/acts-retirement/](https://apis.io/providers/acts-retirement/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
- - Senior Living, Retirement Communities, Continuing Care Retirement Community, Healthcare, Skilled Nursing, Assisted Living, Memory Care, Independent Living, Nonprofit, Long Term Care
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### Security (1)
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+Authentication, trust centre, and vulnerability disclosure.
 
-## APIs
+- [Acts Retirement Domain Security](https://apis.io/security/acts-retirement/acts-retirement-domain-security/)
 
-No public developer APIs are documented or published by Acts Retirement-Life Communities. Senior-living nonprofits in this market segment rarely expose public API surfaces; clinical, HR, payroll, and resident-billing data sit inside vendor-hosted SaaS platforms that are not externally addressable.
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.actsretirement.org)
-- [Portal](https://www.actsretirement.org)
-- [About](https://www.actsretirement.org/about-acts/)
-- [Communities](https://www.actsretirement.org/communities/)
-- [News](https://www.actsretirement.org/latest-retirement-news/)
-- [HealthServices](https://actshealthservices.org)
-- [Careers](https://careers-actslife.icims.com/jobs/search)
-- [Contact](https://www.actsretirement.org/contact-us/)
-- [PrivacyPolicy](https://www.actsretirement.org/privacy-policy/)
-- [LinkedIn](https://www.linkedin.com/company/acts-retirement-life-communities)
-- [Facebook](https://www.facebook.com/ActsRetirement)
-- [YouTube](https://www.youtube.com/user/ActsRetirementLife)
-- [GitHub](https://github.com/api-evangelist/acts-retirement)
+- [Blog](https://www.actsretirement.org/latest-retirement-news/)
+- [Privacy policy](https://www.actsretirement.org/privacy-policy/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Independent Living | Maintenance-free apartment, cottage, and villa residences for active adults 55+ across 28 campuses, with dining, fitness, social programming, and lifelong learning amenities included. |
-| Assisted Living | On-campus personal care residences providing assistance with activities of daily living (bathing, dressing, medication management) for residents who can no longer live fully independently. |
-| Memory Care | Specialized residential neighborhoods for residents living with Alzheimer's disease and other forms of dementia, with secured environments and dementia-trained staff. |
-| Skilled Nursing Care | On-site licensed skilled nursing facilities providing 24-hour professional nursing for residents requiring complex medical care or long-term custodial care. |
-| Short-Term Rehabilitation | Inpatient and outpatient rehabilitation services including physical, occupational, and speech therapy following hospitalization, surgery, or illness. |
-| Acts Life Care Contract | A continuing-care contract that combines independent-living residency with prepaid access to on-campus assisted living, memory care, and skilled nursing at the same monthly fee structure, providing long-term care cost certainty. |
-| Acts Benevolence | A charitable program funded by the Acts Legacy Foundation that provides financial assistance to residents who outlive their personal resources, ensuring no resident is asked to leave for inability to pay. |
-| On-Campus Health Services | Primary-care medical clinics, nurse practitioner programs, and hospice services delivered on each Acts campus under the Acts Health Services brand. |
+**Kin Score 9.5** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 50.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 10.5 |
 
-| Name | Description |
-|------|-------------|
-| Retirement Community Selection | Older adults and their families evaluating CCRC options across the Mid-Atlantic and Southeast U.S. can browse all 28 Acts campuses by state, compare pricing tiers, and request information packets through the public marketing site. |
-| Acts Life Care Contract Purchase | Prospective residents can sign an Acts Life Care contract at any of the 28 communities, locking in lifetime access to the full care continuum (independent through skilled nursing) at predictable monthly fees. |
-| Employment Search And Application | Job seekers across nursing, dining, hospitality, facilities, and administrative roles can search and apply to openings at any Acts campus through the iCIMS-powered careers portal at careers-actslife.icims.com. |
-| Charitable Giving | Donors can contribute to the Acts Legacy Foundation to support benevolent care for residents who exhaust their personal financial resources during their tenure. |
-| Vendor And Partner Inquiry | Healthcare technology vendors, food-service suppliers, construction contractors, and professional service firms can identify Acts procurement contacts through the public contact and corporate compliance pages. |
+**Agent readiness 0.0** — human-only
 
-## Solutions
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Lifetime Care Cost Certainty | The Acts Life Care contract addresses the senior-living industry's biggest financial risk — open-ended long-term-care costs — by bundling all future care levels into a single predictable monthly fee structure backed by Acts Benevolence. |
-| Geographic Continuity Of Care | With 28 campuses across nine Eastern and Southeastern states, residents and their families can relocate within the Acts network while preserving their Life Care contract benefits and care history. |
-| Faith-Based Nonprofit Operating Model | As a not-for-profit organization rooted in a Christian ministry heritage, Acts reinvests operating margin into resident services, benevolent care, and capital improvements rather than distributing profits to investors. |
+**Regulatory alignment 7.8** — Health
 
-## Integrations (Confirmed and Likely)
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acts-retirement/](https://apis.io/providers/acts-retirement/).
 
-| Name | Description |
-|------|-------------|
-| iCIMS Talent Cloud (Careers) — Confirmed | The Acts careers portal is hosted on iCIMS at careers-actslife.icims.com, indicating iCIMS Talent Cloud as the applicant tracking system and recruiting marketing platform. |
-| Likely Clinical EHR | As a multi-site skilled nursing and assisted living operator, Acts almost certainly runs an LTC/PAC-focused electronic health record such as PointClickCare, MatrixCare, or Netsmart MyUnity, but the specific vendor is not publicly disclosed on the Acts website. |
-| Likely HRIS/Payroll | With ~10,000 residents across 28 campuses, Acts operates a large workforce that requires a multi-site HRIS, payroll, and workforce management platform (commonly Workday, UKG Pro/Ready, Paycom, or Oracle HCM in this market segment); the specific vendor is not publicly disclosed. |
-| Likely ERP/Financials | Multi-entity nonprofit CCRC operators typically run Workday Financials, Sage Intacct, Oracle NetSuite, or MRI/Yardi for resident billing and general ledger; the specific vendor is not publicly disclosed. |
+## How this profile is made
 
-## Notable Absences
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- No public developer portal, OpenAPI specs, SDKs, or API documentation.
-- No public RSS or Atom feed on the news / latest-retirement-news section.
-- No resident-portal or mobile-app surface is publicly linked from the marketing site.
-- No public disclosure of clinical EHR, HRIS, payroll, or ERP vendor selections.
-- No GitHub organization operated by Acts Retirement-Life Communities.
-- No public technology blog, engineering blog, or vendor case studies referencing Acts.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Acts Retirement-Life Communities: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** info@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/acts-retirement/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
